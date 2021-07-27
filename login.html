@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+   
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+</head>
+
+<body>
+  <div class="container-form">
+    <form action="#" method="POST" id="form">
+     
+      <div class="form-row"> 
+        <h1 class="titulo text-center m-auto">Design System</h1>
+
+        <!-- ----------- User ----------->
+      <div class="form-group col-sm-12">
+        <label for="email" class="form-label mt-4"><i class="fas fa-user form-icon"></i> Usuario :</label>
+        <input type="email" class="form-control input-user" id="email"  autofocus="autofocus" autocomplete="off">
+      </div>
+
+      <!---------- Password ---------->
+      <div class="form-group col-sm-12">
+        <label for="password" class="form-label"><i class="fas fa-lock form-icon"></i> Contraseña :</label>
+        <div class="container-input">
+          <input type="password" class="form-control input-pass" id="password"><i class="fas fa-eye-slash icon"
+            onclick="mostrarContrasena()"></i>
+        </div>
+
+        <!-- <p class="warnings" id="warnings"></p> -->
+        <button type="submit" class="btn btn-primary form-btn">Iniciar Sesión</button>
+      </div>
+
+      <!-- <a href="recuperar.html" class="m-auto p-3" alt="RecuperarContraseña">¿Has olvidado tu contraseña?</a> -->
+  </div> 
+  </form>
+  </div>
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="js/funcion.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
